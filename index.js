@@ -4,7 +4,7 @@ import RenderLib from "../RenderLib/index.js";
 import { registerWhen } from "../BloomCore/utils/Utils";
 import Dungeon from "../BloomCore/dungeons/Dungeon"
 
-let secrets = new Set(["Revive Stone", "Trap", "Decoy", "Inflatable Jerry", "Defuse Kit", "Dungeon Chest Key", "Treasure Talisman", "Architect's First Draft", "Spirit Leap", "Healing VIII Splash Potion", "Training Weights"])
+let secrets = new Set(["Candycomb", "Revive Stone", "Trap", "Decoy", "Inflatable Jerry", "Defuse Kit", "Dungeon Chest Key", "Treasure Talisman", "Architect's First Draft", "Spirit Leap", "Healing VIII Splash Potion", "Training Weights"])
 
 const EntityItem = Java.type("net.minecraft.entity.item.EntityItem");
 registerWhen(register("renderEntity", (entity, pos, partialTick, event) => {
